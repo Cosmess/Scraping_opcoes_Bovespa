@@ -1,0 +1,23 @@
+{
+  "name": "scraping_opcoes_bovespa",
+  "version": "1.0.0",
+  "description": "Web Scraping no mercado de opções da Bolsa B3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cosmess/Scraping_opcoes_Bovespa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cosmess/Scraping_opcoes_Bovespa/issues"
+  },
+  "homepage": "https://github.com/Cosmess/Scraping_opcoes_Bovespa#readme",
+  "dependencies": {
+    "puppeteer": "^13.5.1"
+  }
+}
