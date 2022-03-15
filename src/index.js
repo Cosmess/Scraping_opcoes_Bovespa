@@ -31,7 +31,7 @@ async function acessapg(){
         headless:false,
         defaultViewport:null,
         executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
-        slowMo:350
+        slowMo:100
     });
     const page = await (await browser).newPage();
     let siteativos = await getAtivos();
